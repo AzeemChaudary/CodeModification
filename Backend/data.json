@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "Beyoncé",
+    "birthdate": "1981-09-04",
+    "activeSince": "1997",
+    "genres": [
+      "R&B",
+      "Pop"
+    ],
+    "labels": [
+      "Columbia Records",
+      "Parkwood Entertainment"
+    ],
+    "website": "https://www.beyonce.com/",
+    "image": "https://cdn.britannica.com/51/188751-050-D4E1CFBC/Beyonce-2010.jpg",
+    "shortDescription": "Beyoncé is a multi-talented artist known for her powerful vocals and captivating performances.",
+    "isFavorite": true
+  },
+  {
+    "id": 2,
+    "name": "Kendrick Lamar",
+    "birthdate": "1987-06-17",
+    "activeSince": "2003",
+    "genres": [
+      "Hip-Hop",
+      "Rap",
+      "Rock"
+    ],
+    "labels": [
+      "Top Dawg Entertainment",
+      "Interscope Records"
+    ],
+    "website": "https://www.kendricklamar.com/",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRUpAI4mqGCl2Ef9cRMhry9lXtwDTdaIyb9YJhNxQwaSpxjk4D47FG5XxLxCyjceW7GPZIShoNtYop4u6A",
+    "shortDescription": "Kendrick Lamar is a critically acclaimed rapper and songwriter recognized for his thought-provoking lyrics.",
+    "isFavorite": false
+  },
+  {
+    "id": 4,
+    "name": "Ed Sheeran",
+    "birthdate": "1991-02-17",
+    "activeSince": "2004",
+    "genres": [
+      "Pop",
+      "Folk"
+    ],
+    "labels": [
+      "Atlantic Records",
+      "Asylum Records"
+    ],
+    "website": "https://www.edsheeran.com/",
+    "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSC5dHXTqKJqX5YeHlzNtNAXWv2owk3fLLBtUOl_CBvnhBLEZiavi1KVYa-Q-6WSpzxVtgbOVZDdXJqi9M",
+    "shortDescription": "Ed Sheeran is a singer-songwriter known for his heartfelt acoustic songs.",
+    "isFavorite": false
+  },
+  {
+    "id": 6,
+    "name": "Drake",
+    "birthdate": "1986-10-24",
+    "activeSince": "2001",
+    "genres": [
+      "Hip-Hop",
+      "R&B"
+    ],
+    "labels": [
+      "OVO Sound",
+      "Republic Records"
+    ],
+    "website": "https://www.drakeofficial.com/",
+    "image": "https://media1.popsugar-assets.com/files/thumbor/zan-t_Me63if8oqWYE9ENiPLlhA/0x224:2826x3050/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/02/11/894/n/1922398/87f6bb525e430e7bd44e40.22278576_/i/Drake.jpg",
+    "shortDescription": "Drake is a rap icon known for his chart-topping hits and smooth flow.",
+    "isFavorite": true
+  },
+  {
+    "id": 7,
+    "name": "Rihanna",
+    "birthdate": "1988-02-20",
+    "activeSince": "2005",
+    "genres": [
+      "R&B",
+      "Pop"
+    ],
+    "labels": [
+      "Roc Nation",
+      "Def Jam Recordings"
+    ],
+    "website": "https://www.rihannanow.com/",
+    "image": "https://cdn.britannica.com/83/211883-050-46933F1A/Rihanna-Barbadian-singer-Robyn-Fenty.jpg",
+    "shortDescription": "Rihanna is a global superstar with a distinctive voice and fashion-forward style.",
+    "isFavorite": false
+  }
+]

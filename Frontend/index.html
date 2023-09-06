@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/music-tone-icon-vector-template-260nw-1447967264.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <title>Musicly</title>
+  </head>
+  <body>
+    <header>
+      <h3>Musicly</h3>        
+      <button id="btn-create-character">Create Artist</button>
+      <form id="searchbyname">
+        <input type="search" id="input-search" placeholder="Search by name">
+      </form>
+    </header>
+  <main>
+    <div class="tools-grid">
+        <label for="sortby">Sort by:        
+          <form id="sortby" name="sortby">
+            <select name="sortbyselect" id="sortbyselect">
+              <option value="name">Name A-Z</option>
+              <option value="name-reverse">Name Z-A</option>
+            </select>
+          </form>
+        </label>
+
+        <label for="filterby">Filter by:
+           <form id="filterby" name="filterby">
+            <select id="filter-bar">
+              <option value="none">None</option>
+              <option value="Rock">Rock </option>
+              <option value="Jazz">Jazz</option>
+              <option value="Hip-Hop">Hip-Hop</option>
+              <option value="classic">classic</option>
+            </select>
+          </form>
+        </label>
+
+      </div>
+
+        <h2>Artists</h2>
+        <section id="characters" class="grid-container"></section>
+</main>
+
+<dialog id="character-modal">
+  <img id="character-image" src="">
+  <h3 id="character-name"></h3>
+  <p>Birth: <span id="character-birth"></span></p>
+  <p>Genres: <span id="character-genres"></span></p>
+  <p>Labels: <span id="character-labels"></span></p>
+  <p>Website: <span id="character-website"></span></p>
+  <p>Short Description: <span id="character-shortDescription"></span></p>
+  <form method="dialog">
+    <button>Close</button>
+  </form>
+</dialog>
+
+ <dialog id="dialog-create-character">
+  <div class="create-dialog-container">
+    <h2 class="create-dialog-head">Create new Artist</h2>
+    <form id="form-create-character" method="dialog" class="create-dialog-form">
+      <label for="name">Name</label>
+      <input type="text" name="characterName" id="characterName" placeholder="Input Artist's name" size="50" />
+
+      <label for="image">Image</label>
+      <input type="url" name="characterImage" id="characterImage" placeholder="Input Artist's image" size="50" />
+
+      <label for="birth">Year of Birth</label>
+      <input type="text" name="characterBirth" id="characterBirth" placeholder="Input Character's year of birth" size="50" />
+
+
+      <label for="genres">Genres</label>
+      <input type="text" name="characterGenres" id="genres" placeholder="Input Artist's most known song" size="50" />
+
+      <label for="labels">Labels</label>
+      <input type="text" name="characterLabel" id="labels" placeholder="Input Artist's music type" size="50" />
+
+      
+      <label for="website">Website</label>
+      <input type="text" name="characterWebsite" id="website" placeholder="Input Artist's music type" size="50" />
+
+      
+      <label for="shortDescription">Short description</label>
+      <input type="text" name="characterDescription" id="shortDescription" placeholder="Input Artist's music type" size="50" />
+
+      <label for="gender">Gender</label>
+      <select name="characterGender" id="characterGender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br>
+
+      <button class="btn-cancel">Close</button>
+      <button type="submit">Create</button>
+
+    </form>
+  </div>
+</dialog>
+
+
+                <!-- dialog - delete post -->
+  <dialog id="dialog-delete-character">
+        <h2>Do you want to delete an Artist?</h2>
+        <p id="dialog-delete-character-title">Name of the Artist</p>
+        <form method="dialog" id="form-delete-character">
+        <button type="button" class="btn-cancel" id="cancelDelete">No</button>
+        <button>Yes</button>
+        </form>
+    </dialog>
+
+  
+  <dialog id="dialog-update-character">
+      <h2>Update Artist</h2>
+      <form id="form-update-character" method="dialog">
+        <label for="name">Name</label>
+        <input type="text" name="name" />
+
+        <label for="image">Image</label>
+        <input type="url" name="image" />
+
+        <label for="birth">Birth Year</label>
+        <input type="text" name="birth" />
+
+        <label for="genres">Genres</label>
+        <input type="text" name="genres" />
+
+        <label for="labels">Labels</label>
+        <input type="text" name="labels" />
+
+        <label for="website">Website</label>
+        <input type="text" name="website" />
+
+        <label for="shortDescription">Short Description</label>
+        <input type="text" name="shortDescription" />
+
+
+        <label for="gender">Gender</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br>
+
+
+        <button class="btn-cancel">Close</button>
+        <button>Update</button>
+      </form>
+    </dialog>
+
+    <dialog id="dialog-failed-to-update">
+      <p>Character Update Failed</p>
+      <button class="btn-cancel">Close</button>
+    </dialog>
+
+    <script src="./script.js"type="module"></script>
+  </body>
+</html>
